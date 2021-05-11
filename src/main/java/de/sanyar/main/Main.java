@@ -1,6 +1,7 @@
 package de.sanyar.main;
 
 import de.sanyar.commands.Command_Gamemode;
+import de.sanyar.commands.Command_Spawn;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -16,6 +17,7 @@ public class Main extends JavaPlugin {
 
         //Commands register
         new Command_Gamemode(this);
+        new Command_Spawn(this);
     }
 
     @Override
