@@ -1,0 +1,9 @@
+name: LobbyPlugin
+author: Sanyar
+version: 1.0
+main: de.sanyar.main.Main
+
+commands:
+  gamemode:
+    aliases:
+      - gm
